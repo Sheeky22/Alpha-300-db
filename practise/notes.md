@@ -45,5 +45,48 @@ Delete foriegn Key(user):
     4. ON DELETE SET NULL - Set NULL
     5. ON DELETE SET DEFAULT - Set default value
 
+TYPES OF JOINS:
+1. INNER JOIN - Matching row mandatory
+2. LEFT JOIN - All rows of left table
+3. RIGHT JOIN - All rows of right table
+4. FULL JOIN - Match every row of both table 
+
+AGGREGATE FUNCTION:
+- SUM
+- MAX
+- MIN
+- COUNT - Null value ignored
+- COUNT(*) - number of rows
+- AVG
+
+WHERE - Filters rows
+HAVING -Filters groups
+
+
+UNION - Combine two query results
+UNION ALL - Union with duplicates
+INTERSECT - Returns rows that are common
+EXCEPT - A EXCEPT B, remove rows from A that is present in B. 
+
+SCALAR QUERY - single value from query
+
+SUBQUERIES:
+select - single value
+from - outer query compatible - alias is IMPORTANT
+join - compatible with ON clause
+where - in (single column of values)
+
+![alt text](image.png)
+
+![alt text](image-1.png)
+
+GREATEST
+LEAST
+
+CASE
+    WHEN price > 30 THEN "HIGH"
+    WHEN price > 30 THEN "HIGH"
+    ELSE 'CHEAP
+END
 
 
